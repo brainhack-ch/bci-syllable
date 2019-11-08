@@ -1,0 +1,14 @@
+DATA_PATH = r'C:/Users/adesvachez/git/nd_data/mi/subject1-mi'
+DIRECTIONS = ['L', 'R']
+DIR_RANDOM = False
+FEEDBACK_IMAGE_PATH = r''
+FEEDBACK_TYPE = 'BAR'
+GLASS_USE = False
+REFRESH_RATE = 50
+SCREEN_POS = (0, 0)
+SCREEN_SIZE = (1920, 1080)
+TIMINGS = {'INIT': 2, 'GAP': 3, 'CUE': 1, 'READY': 1, 'READY_RANDOMIZE': 0, 'DIR': 2.0, 'DIR_RANDOMIZE': 0}
+TRIALS_EACH = 15
+TRIAL_PAUSE = False
+TRIGGER_DEVICE = 'SOFTWARE'
+TRIGGER_FILE = r'C:/Users/adesvachez/git/NeuroDecode/neurodecode/triggers/triggerdef_16.ini'
