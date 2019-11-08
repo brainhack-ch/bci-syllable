@@ -1,0 +1,29 @@
+Cross validation took 8 seconds.
+
+- Class information
+10 epochs, 76 samples per epoch, 220 feature dimension (total 760 samples)
+RIGHT_GO: 5 trials
+LEFT_GO: 5 trials
+
+- Experiment condition
+Sampling frequency: 300.000 Hz
+Spatial filter: car (channels: ['Fz', 'F3', 'F4', 'F7', 'F8', 'Cz', 'C3', 'C4', 'P3', 'Pz', 'P4'])
+Spectral filter: None
+Notch filter: None
+Channels: Fz,F3,F4,F7,F8,Cz,C3,C4,P3,Pz,P4
+PSD range: 1.0 - 40.0 Hz
+Window step: 33.33 msec
+Window size: 500.0 msec
+Epoch range: [0.5, 3.5] sec
+Decimation factor: 1
+
+- Average CV accuracy over 10 epochs (random seed=0)
+Classifier: RF, 1000 trees, 5 max depth, random state 666
+
+- Confusion Matrix
+Y: ground-truth, X: predicted
+RIGHT_GO     LEFT_GO      
+0.84         0.16         
+0.24         0.76         
+Average accuracy: 0.80
+Average F1 score: 0.78
